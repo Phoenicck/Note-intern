@@ -12,4 +12,4 @@ async def get_author(name:str = Path(...,min_length=2,max_length=10)):
     return {"message": f"The author name is {name}"}
 ```
 
-3. 
+3. 测试
